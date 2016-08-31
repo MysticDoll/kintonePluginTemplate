@@ -1,0 +1,19 @@
+{
+  "name": "kintone-plugin-template",
+  "version": "1.0.0",
+  "description": "Template repository for kintone plugin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "./bootstrap.sh",
+    "build": "webpack --config desktop.webpack.config.js && webpack --config configpage.webpack.config.js && ./build.sh"
+  },
+  "author": "Mitsuru Takigahira",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-2": "^6.13.0",
+    "webpack": "^1.13.1"
+  }
+}

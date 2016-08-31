@@ -1,0 +1,35 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "Plugin template",
+    "en": "Plugin template",
+    "zh": "Plugin template"
+  },
+  "description": {
+    "ja": "Plugin template",
+    "en": "Plugin template",
+    "zh": "Plugin template"
+  },
+  "icon": "images/icon.png",
+  "homepage_url": {
+    "ja": "https://example.com/",
+    "en": "https://example.com/",
+    "zh": "https://example.com/"
+  },
+  "desktop": {
+    "js": [
+      "js/desktop.js"
+    ]
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "js/config.js"
+    ],
+    "css": [
+      "css/style.css"
+    ]
+  }
+}
