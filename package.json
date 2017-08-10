@@ -4,8 +4,8 @@
   "description": "Template repository for kintone plugin",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "./bootstrap.sh",
-    "build": "webpack --config desktop.webpack.config.js && webpack --config configpage.webpack.config.js && ./build.sh"
+    "init": "./init.sh",
+    "build": "webpack && ./build.sh"
   },
   "author": "Mitsuru Takigahira",
   "license": "MIT",

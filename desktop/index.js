@@ -1,2 +1,2 @@
 "use strict";
-const key = require("../key");
+import key from "../key";
